@@ -1,0 +1,572 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  /*font-family: 'Poppins', sans-serif;*/
+  font-family: avenir;
+}
+
+header {
+  height: 100vh;
+  background: url(../img/fundo-header.jpg) no-repeat center/cover;
+  background-blend-mode: soft-light;
+}
+
+header .footer-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #000;
+  width: 100%;
+  height: 6vh;
+  bottom: 0;
+  position: fixed;
+}
+
+header .footer-nav .nav-menu {
+  width: 50%;
+  left: 0;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-left: 7rem;
+}
+
+header .footer-nav .nav-menu a {
+  text-decoration: none;
+  color: #fff;
+  padding-right: 2rem;
+}
+
+header .footer-nav .nav-menu a:hover {
+  color: #ffdeaa;
+}
+
+header .footer-nav .contacts-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 50%;
+  height: 100%;
+  padding-right: 7rem;
+}
+
+header .footer-nav .contacts-content .top-content {
+  width: 5%;
+  height: 50%;
+  margin-right: 2rem;
+}
+
+header .footer-nav .contacts-content .mail-content {
+  width: 5%;
+  height: 50%;
+}
+
+header .footer-nav .contacts-content .phone-content {
+  width: 5%;
+  height: 50%;
+  margin-left: 2rem;
+  /*img{
+          height: 100%;
+        }*/
+}
+
+header .logo-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+header .logo-content .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 15rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+header .logo-content .logo img {
+  height: 100%;
+}
+
+header .logo-content .nome {
+  text-transform: uppercase;
+  width: 100%;
+}
+
+header .logo-content .nome h1 {
+  text-align: center;
+  color: #e4e4e4;
+  margin: 0;
+  font-size: 3.5rem;
+  font-weight: 500;
+  letter-spacing: 10px;
+}
+
+header .logo-content .name-subtext {
+  text-transform: uppercase;
+  width: 100%;
+}
+
+header .logo-content .name-subtext p {
+  text-align: center;
+  padding-left: 10px;
+  margin: 0;
+  color: #e4e4e4;
+  letter-spacing: 13px;
+  font-size: 0.7rem;
+}
+
+.presentation {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.presentation .presentation-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 45%;
+  /*background-color: red;*/
+}
+
+.presentation .presentation-content .foto-content {
+  width: 13%;
+  height: 100%;
+  /*background-color: blue;*/
+}
+
+.presentation .presentation-content .foto-content .foto {
+  width: 100%;
+  height: 50%;
+}
+
+.presentation .presentation-content .foto-content .foto img {
+  width: 100%;
+}
+
+.presentation .presentation-content .presentation-text-content {
+  width: 25%;
+  /*background-color: green;*/
+  padding-top: 2%;
+  padding-left: 25px;
+}
+
+.presentation .presentation-content .presentation-text-content .presentation-title {
+  width: 100%;
+  /*background-color: yellow;*/
+}
+
+.presentation .presentation-content .presentation-text-content .presentation-title .presentation-subcontent h2 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+
+.presentation .presentation-content .presentation-text-content .presentation-title .presentation-subcontent p {
+  margin: 0;
+  color: #93969b;
+  letter-spacing: 1px;
+}
+
+.presentation .presentation-content .presentation-text-content .presentation-text {
+  width: 100%;
+  /*background-color: orange;*/
+}
+
+.presentation .presentation-content .presentation-text-content .presentation-text p {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #fafafa;
+}
+
+.skills .skills-content {
+  width: 80%;
+  height: 80%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25% 25% 25% 25%;
+      grid-template-columns: 25% 25% 25% 25%;
+  -ms-grid-rows: 50% 50%;
+      grid-template-rows: 50% 50%;
+  /*background-color: red;*/
+}
+
+.skills .skills-content .html-content {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 2;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 2;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  /*background-color: palegreen;*/
+}
+
+.skills .skills-content .html-content img {
+  height: 50%;
+  opacity: 1;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.skills .skills-content .html-content .html-text {
+  position: absolute;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  opacity: 0;
+  padding: 5%;
+  text-align: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.skills .skills-content .html-content .html-text p {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 1.3rem;
+}
+
+.skills .skills-content .html-content:hover img {
+  opacity: 0.3;
+}
+
+.skills .skills-content .html-content:hover .html-text {
+  opacity: 1;
+}
+
+.skills .skills-content .scss-content {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-column-end: 3;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 2;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  /*background-color: pink;*/
+}
+
+.skills .skills-content .scss-content img {
+  height: 50%;
+  opacity: 1;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.skills .skills-content .scss-content .scss-text {
+  position: absolute;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  opacity: 0;
+  padding: 5%;
+  text-align: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.skills .skills-content .scss-content .scss-text p {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 1.3rem;
+}
+
+.skills .skills-content .scss-content:hover img {
+  opacity: 0.3;
+}
+
+.skills .skills-content .scss-content:hover .scss-text {
+  opacity: 1;
+}
+
+.skills .skills-content .js-content {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column: 3;
+      grid-column-start: 3;
+  grid-column-end: 4;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 2;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /*background-color: purple;*/
+}
+
+.skills .skills-content .js-content img {
+  height: 50%;
+  opacity: 1;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.skills .skills-content .js-content .js-text {
+  position: absolute;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  opacity: 0;
+  padding: 5%;
+  text-align: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.skills .skills-content .js-content .js-text p {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 1.3rem;
+}
+
+.skills .skills-content .js-content:hover img {
+  opacity: 0.3;
+}
+
+.skills .skills-content .js-content:hover .js-text {
+  opacity: 1;
+}
+
+.skills .skills-content .wp-content {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column: 4;
+      grid-column-start: 4;
+  grid-column-end: 5;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 2;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  /*background-color: sienna;*/
+}
+
+.skills .skills-content .wp-content img {
+  height: 50%;
+  opacity: 1;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.skills .skills-content .wp-content .wp-text {
+  position: absolute;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  opacity: 0;
+  padding: 5%;
+  text-align: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.skills .skills-content .wp-content .wp-text p {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 1.3rem;
+}
+
+.skills .skills-content .wp-content:hover img {
+  opacity: 0.3;
+}
+
+.skills .skills-content .wp-content:hover .wp-text {
+  opacity: 1;
+}
+
+.skills .skills-content .ai-content {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-column-end: 3;
+  -ms-grid-row: 2;
+      grid-row-start: 2;
+  grid-row-end: 3;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  /*background-color: slateblue;*/
+}
+
+.skills .skills-content .ai-content img {
+  height: 50%;
+  opacity: 1;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.skills .skills-content .ai-content .ai-text {
+  position: absolute;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  opacity: 0;
+  padding: 5%;
+  text-align: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.skills .skills-content .ai-content .ai-text p {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 1.3rem;
+}
+
+.skills .skills-content .ai-content:hover img {
+  opacity: 0.3;
+}
+
+.skills .skills-content .ai-content:hover .ai-text {
+  opacity: 1;
+}
+
+.skills .skills-content .ps-content {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column: 3;
+      grid-column-start: 3;
+  grid-column-end: 4;
+  -ms-grid-row: 2;
+      grid-row-start: 2;
+  grid-row-end: 3;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.skills .skills-content .ps-content img {
+  height: 50%;
+  opacity: 1;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.skills .skills-content .ps-content .ps-text {
+  position: absolute;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  opacity: 0;
+  padding: 5%;
+  text-align: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.skills .skills-content .ps-content .ps-text p {
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 1.3rem;
+}
+
+.skills .skills-content .ps-content:hover img {
+  opacity: 0.3;
+}
+
+.skills .skills-content .ps-content:hover .ps-text {
+  opacity: 1;
+}
+/*# sourceMappingURL=style.css.map */
